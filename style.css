@@ -1,0 +1,48 @@
+/* style.css */
+
+/* Style untuk kontainer produk */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Style untuk setiap produk */
+.product-card {
+    border: 2px solid #ff6600;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: yellow;
+}
+
+/* Style untuk gambar produk */
+.product-card img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Style untuk keterangan produk */
+.product-details {
+    padding: 10px;
+}
+
+.product-details h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product-details p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.product-details p:last-child {
+    font-weight: bold;
+    color: #007bff;
+}
